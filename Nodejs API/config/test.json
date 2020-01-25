@@ -1,0 +1,16 @@
+{
+    "name" : "NAME",
+    "port": 8000,
+    "mysql":{
+        "host":"localhost",
+        "user":"root",
+        "password":"admin",
+        "database":"test_db"
+    },
+    "modules" : {
+        "auth" : {
+            "versions" : ["v10"]
+        }
+    }
+
+}
